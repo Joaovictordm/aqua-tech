@@ -1,0 +1,290 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+.header{
+display: flex;
+justify-content: center;
+height: 90px;
+}
+.container{
+background-color: rgb(0, 0, 0);
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+gap: 30%;
+}
+
+.titulo{
+color: rgb(52, 181, 181);
+display: flex;
+align-items: center;
+}
+.navbar{
+display: flex;
+width: 300px;
+justify-content: space-around;
+align-items: center;
+}
+.agora{
+    color: rgb(181, 127, 11);
+    font-size: 20px;
+    font-weight: bold;
+}
+a{
+text-decoration: none;
+color: rgb(163, 116, 13);
+
+}
+ul {
+    list-style: none;
+    color: rgb(163, 116, 13);
+}
+
+/* banner */
+
+.banner{
+background-image: url("../assets/imgs/bg-jelly-fish-para_outras_pags.png"); 
+height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container2{
+color: wheat;
+height: 150px;
+width: 150px;
+display: flex;
+
+}
+.container2 span{
+font-weight: bold;
+}
+.container2 p {
+    font-size: 30px;
+}
+
+.linha{
+    background-color: rgb(52, 181, 181);
+    display: flex;
+    justify-content: flex-start;
+    height: 4px;
+    width: 100%;
+}
+
+/* conteudo */
+
+.social{
+
+}
+.container3{
+background-color: rgb(157, 176, 176);
+width: 100%;
+height: 400px;
+display: flex;
+}
+.boxes{
+background-color: rgb(157, 176, 176);
+width: 100%;
+height: 320px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 20px;
+
+}
+.box{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.box h4 {
+    color: red;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 23px;
+}
+.box p{
+    font-size: 19px;
+    display: flex;
+    
+}
+.box img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+
+/* footer */
+.footer{
+    background-color: rgb(52, 181, 181);
+    height: 150px;
+    width: 100%;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.container4 h4{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    width: 500px;
+    color: white;
+    font-size: 20px;
+}
+
+.container4 span {
+    font-size: 20px;
+    color: white;
+
+}
+
+/* login Header*/
+
+.containerForm {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 30%;
+}
+.headerForm{
+    display: flex;
+    justify-content: center;
+    height: 90px;
+}
+.tituloForm{
+color: rgb(52, 181, 181);
+display: flex;
+align-items: center;
+}
+.navbarForm{
+display: flex;
+width: 300px;
+justify-content: space-around;
+align-items: center;
+}
+
+/* Login corpo */
+
+.form{
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png"); 
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.containerFormCorpo{
+    background-color: aliceblue;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.containerFormCorpoCadastro {
+    background-color: aliceblue;
+    height: 450px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.card-register{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+.card-register h2{
+    color: rgb(211, 76, 119);
+    font-weight: bold;
+}
+.card-register span {
+    color: rgb(211, 76, 119);
+    font-weight: bold;
+}
+
+.card-login{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.formularioRegister{
+    height: 90%;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-login h2 {
+    color: rgb(211, 76, 119);
+}
+.card-login span {
+    color: rgb(211, 76, 119);
+    font-weight: bold;
+}
+.formulario {
+    height: 180px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.campo{
+    height: 50px;
+    width: 370px;
+}
+.input{
+    width: 100%;
+    height: 30px;
+    border-color: rgb(102, 151, 192);
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+}
+.botaoForm{
+    background-color: rgb(255, 95, 145);
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+}
+.footerForm{
+    background-color: aqua;
+    height: 70px;
+
+}
